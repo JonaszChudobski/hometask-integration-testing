@@ -1,0 +1,26 @@
+{
+  "name": "hometask-project-set-up",
+  "version": "1.0.0",
+  "description": "This is my first project",
+  "main": "index.js",
+  "repository": "git@github.com:JonaszChudobski/hometask-integration-testing.git",
+  "author": "JonaszChudobski <jonasz.chudobski@wp.pl>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.2.2",
+    "jest": "^29.2.2"
+  },
+  "scripts": {
+    "build": "babel js -d lib",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "type": "module"
+}
